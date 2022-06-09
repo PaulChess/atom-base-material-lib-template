@@ -11,6 +11,7 @@
     >
       <span v-show="closeable" @click="close">×</span>
       <slot></slot>
+      111111
       {{ t('ui.alert.content') }}
     </div>
   </transition>  

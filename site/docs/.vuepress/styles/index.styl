@@ -1,0 +1,77 @@
+/**
+ * Custom Styles here.
+ *
+ * ref：https://v1.vuepress.vuejs.org/config/#index-styl
+ */
+
+.home .hero img
+  max-width 450px!important
+
+body
+  background-color: #fff;
+
+
+// code
+div[class*="language-"] pre, div[class*="language-"] pre[class*="language-"]
+  background: #292d3e;
+
+div[class*="language-"] {
+  border-radius: 13px;
+}
+.theme-default-content pre code, .theme-default-content pre[class*="language-"] code {
+  color: #A6ACCD;
+}
+.theme-default-content code {
+  padding: 0.18rem 0.4rem;
+}
+
+.token.tag,
+.token.attr-name {
+  color: #F07178;
+}
+
+.token.punctuation {
+  color: #89DDFF;
+}
+
+.token.property {
+  color: #CC9933;
+}
+
+.token.selector,
+.token.atrule,
+.token.keyword,
+.token.builtin,
+.token.string {
+  color: #82AAFF;
+}
+
+.token.important {
+  color: #89DDFF;
+}
+
+.token.attr-value {
+  color:#A6ACCD;
+}
+
+// 滚动条
+::-webkit-scrollbar {
+  width:10px;
+  height: 8px;
+}
+// 滚动槽
+::-webkit-scrollbar-track {
+  -webkit-box-shadow:inset006pxrgba(0,0,0,0.3);
+  height: 3px;
+  border-radius:6px;
+}
+// 滚动条滑块
+::-webkit-scrollbar-thumb {
+  height: 3px
+  border-radius:6px;
+  background:transparent;
+  -webkit-box-shadow:inset006pxrgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background:rgba(255,0,0,0.4);
+}

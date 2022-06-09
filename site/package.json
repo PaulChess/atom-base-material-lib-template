@@ -1,0 +1,28 @@
+{
+  "name": "hxmui-doc",
+  "version": "0.0.1",
+  "description": "同花顺移动端 Vue 组件文档",
+  "main": "index.js",
+  "authors": {
+    "name": "panhailiang",
+    "email": "panhailiang@myhexin.com"
+  },
+  "repository": "/hxmui-doc",
+  "scripts": {
+    "genDocs": "node ./scripts/genDocs &",
+    "dev": "vuepress dev docs",
+    "build": "NODE_ENV=prod npm run genDocs && vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.0.0",
+    "@vuepress/plugin-back-to-top": "^1.0.0",
+    "@vuepress/plugin-medium-zoom": "^1.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "child_process": "^1.0.2",
+    "chokidar": "^3.5.2",
+    "fast-glob": "^3.2.6"
+  }
+}

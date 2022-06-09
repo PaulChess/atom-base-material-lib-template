@@ -1,0 +1,63 @@
+/**
+ * Custom palette here.
+ *
+ * ref：https://v1.vuepress.vuejs.org/zh/config/#palette-styl
+ */
+
+$accentColor = #e93030
+$textColor = #323232
+$borderColor = #eeeeee
+$codeBgColor = #282c34
+
+html {
+  font-family: Helvatica;
+}
+.sidebar {
+  width: 16rem;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+  li {
+    padding: 0.16rem 0;
+  }
+}
+.sidebar::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.page {
+  padding-left: 15rem;
+}
+
+p code, td code {
+  color: $accentColor !important;
+  background: rgba(233,48,48,0.05) !important;
+}
+td {
+  line-height: 28px;
+}
+tr {
+  border-top: 1px solid #f5f5f5;
+}
+th,td {
+  border: 1px solid #f5f5f5;
+}
+
+.home .hero .action-button {
+  background-color: #2678F4;
+  border-bottom: none;
+  margin: 50px 0;
+}
+.home .hero .action-button:hover {
+  background-color: rgba(38, 120, 244, .8);
+}
+
+
+// medium
+@media (max-width: 959px) {
+  .sidebar {
+    width: 13.6rem;
+  }
+  .page {
+    padding-left: 13.6rem;
+  }
+}
