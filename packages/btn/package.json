@@ -1,6 +1,6 @@
 {
   "name": "button",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "button component",
   "main": "lib/index.common.js",
   "author": "",
@@ -9,7 +9,7 @@
     "lib": "vue-cli-service build --target lib --formats commonjs --name index index.js"
   },
   "dependencies": {
-    "locale": "^0.1.0"
+    "locale": "^0.1.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",
